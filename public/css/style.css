@@ -1,0 +1,15 @@
+.heading-page {
+  text-align: left;
+}
+
+@media (min-width: 640px) {
+  .heading-page {
+    text-align: center;
+  }
+}
+
+@media (min-width: 1024px) {
+  .heading-page {
+    text-align: right;
+  }
+}
