@@ -1,3 +1,5 @@
+const colors = require('tailwindcss/colors')
+
 module.exports = {
   purge: [
     './resources/**/*.blade.php',
@@ -34,7 +36,14 @@ module.exports = {
       sm: '86px'
     },
     maxHeight: {
-      md: '770px'
+      md: '976px'
+    },
+    colors: {
+      black: colors.black,
+      white: colors.white,
+      gray: colors.gray,
+      yellow: colors.amber,
+      red: colors.rose
     },
     extend: {}
   },
