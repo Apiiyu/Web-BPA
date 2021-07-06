@@ -122,6 +122,51 @@
           </div>
         </div>
       </div>
+
+      {{-- Box Menu --}}
+      <div class="main-menu mt-5 flex justify-between mb-5">
+        <div class="box-food-menu rounded-xl">
+          <img src="{{ asset('images/makanan-pokok/bacang.jpeg')  }}" alt="bacang" class="img-menu">
+          
+          <div class="food-detail ml-2 mt-3">
+            <h2 class="font-bold text-md">Bacang Nasi</h2>
+            <h3 class=" font-bold text-sm text-yellow-400">Rp. 4.500</h3>
+          </div>
+          
+          <div class="box-icon-stars flex mr-3">
+            <h3 class="font-medium text-md mr-1">4.8</h3>
+            <img src="{{ asset('icons/Star.svg') }}" alt="Add" class="icon icon-stars">
+          </div>
+        </div>
+
+        <div class="box-food-menu rounded-xl">
+          <img src="{{ asset('images/makanan-pokok/nasi-goreng.jfif')  }}" alt="Nasi-Goreng" class="img-menu">
+          
+          <div class="food-detail ml-2 mt-3">
+            <h2 class="font-bold text-md">Nasi Goreng</h2>
+            <h3 class=" font-bold text-sm text-yellow-400">Rp. 16.500</h3>
+          </div>
+
+          <div class="box-icon-stars flex mr-3">
+            <h3 class="font-medium text-md mr-1">4.9</h3>
+            <img src="{{ asset('icons/Star.svg') }}" alt="Add" class="icon icon-stars">
+          </div>
+        </div>
+
+        <div class="box-food-menu rounded-xl mr-5">
+          <img src="{{ asset('images/makanan-pokok/ayam-penyet.jfif')  }}" alt="soto-ayam" class="img-menu">
+          
+          <div class="food-detail ml-2 mt-3">
+            <h2 class="font-bold text-md">Ayam Penyet</h2>
+            <h3 class=" font-bold text-sm text-yellow-400">Rp. 20.000</h3>
+          </div>
+          
+          <div class="box-icon-stars flex mr-3">
+            <h3 class="font-medium text-md mr-1">4.7</h3>
+            <img src="{{ asset('icons/Star.svg') }}" alt="Add" class="icon icon-stars">
+          </div>
+        </div>
+      </div>
     </div>
     <div class="col-span-3">
       <div class="box-profile">
